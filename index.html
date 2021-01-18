@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+    <header>
+        <h1>Recette</h1>
+        <h2>Gâteau au chocolat</h2>
+        <hr>
+        <p><q>&nbsp;Recette du gâteau au chocolat est un grand classique et fera plaisir aux petits comme aux grands&nbsp;</q></p>
+    </header>
+        <section class="presentation">
+        <!-- <p><a href="http://img-3.journaldesfemmes.fr/9gE_7re33V3vgCSTxv6wmYfN3GI=/750x/smart/3fab692feaaf4aeda820708bbb11ada6/recipe-jdf/10018954.jpg" target="_blank" rel="external">Lien internet vers mon gâteau</a></p> -->
+        <div>
+            <img decoding="async"  width="500" src="http://img-3.journaldesfemmes.fr/9gE_7re33V3vgCSTxv6wmYfN3GI=/750x/smart/3fab692feaaf4aeda820708bbb11ada6/recipe-jdf/10018954.jpg" alt="gâteau au chocolat" > 
+                <table class="resume">
+                    <thead>
+                        <tr>
+                            <td>Difficulté</td>
+                            <td>Préparation</td>
+                            <td>Cuisson</td>
+                            <td>Temps total</td>
+                        </tr>
+                    </thead>
+                    <tbody><tr>
+                        <td>Facile</td>
+                        <td>10mn</td>
+                        <td>25mn</td>
+                        <td>35mn</td>
+                    </tr></tbody>
+                </table>
+        </div>
+        </section>
+        <section class="preparation">
+            <article class="ingredients">    
+                <h3>Ingrédients</h3>
+                <!-- ul avec type circle (par défaut disc) -->
+                <hr>
+                <ul type="disc">
+                    <li>200 gr de chocolat noir</li>
+                    <li>100 gr de beurre</li>
+                    <li>100 gr de farine</li>
+                    <li>100 gr de sucre</li>
+                    <li>4 oeufs gros calibre</li>
+                </ul>
+            </article>
+        <!-- <p><a href="deuxiemePage.html">Ma deuxième page</a></p> -->
+        <!-- ol avec type => lettres alphabétiques - I pour lettres romaines rien pour chiffres -->
+            <article class="cooking">
+                <h3>Préparation</h3>
+                <hr>
+                <!-- <ol type="A">
+                    <li>Faire fondre le chocolat avec du beurre</li>
+                    <li>Incorporer les oeufs, le sucre et la farine</li>
+                    <li>Enfourner 25mn à 180°</li>
+                </ol> -->
+                <table class="recette">
+                    <tr>
+                        <td><p class="numero">1</p></td>
+                        <td>Faire fondre le chocolat avec du beurre au bain marie. Le chocolat doit rester liquide</td>
+                    </tr>
+                    <tr>
+                        <td><p class="numero">2</p></td>
+                        <td>Incorporer les oeufs, le sucre et la farine</td>
+                    </tr>
+                    <tr>
+                        <td><p class="numero">3</p></td>
+                        <td>Mélanger délicatement</td>
+                    </tr>
+                    <tr>
+                        <td><p class="numero">4</p></td>
+                        <td>Enfourner 25mn à 180°</td>
+                    </tr>
+                </table>
+            </article>
+        <!-- TABLE 
+        th: table header (en-têtes)
+        tr : table row (rangées)
+        td : table data 
+        par exemple ici on crée de td dans un tr
+        -->
+        <!--  
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Aliment</th>
+                    <th>prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pomme</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot> 
+                <tr><td colspan="2">footer</td></tr>  
+            </tfoot>
+        </table>
+    -->
+</section>
+    </div>
+    <footer></footer>
+</body>
+</html>
